@@ -160,9 +160,7 @@
 
 .license {
     position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @extend %centeredFlex;
     margin-bottom: 30px;
 }
 
@@ -197,9 +195,7 @@
 }
 
 .modal-form button[type="submit"] {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @extend %centeredFlex;
     width: 200px;
     height: 50px;
     margin-right: auto;

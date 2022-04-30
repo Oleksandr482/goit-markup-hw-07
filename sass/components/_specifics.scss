@@ -23,9 +23,7 @@
 }
 
 .specifics__logo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @extend %centeredFlex;
     height: 120px;
     background-color: $secondary-bg-color;
     border-radius: 4px;

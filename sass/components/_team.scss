@@ -53,16 +53,13 @@
 }
 
 .member-social-links {
-    display: flex;
-    justify-content: center;
+    @extend %centeredFlex;
     padding-bottom: 30px;
 
 }
 
 .member-social-links a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @extend %centeredFlex;
     width: 44px;
     height: 44px;
     border-radius: 50%;

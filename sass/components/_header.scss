@@ -10,8 +10,7 @@
 }
 
 .flex-head {
-    display: flex;
-    align-items: center;
+    @extend %centeredFlex;
 }
 
 .flex-head__logo-header {
@@ -111,8 +110,7 @@
 }
 
 .contact-nav__link {
-    display: flex;
-    align-items: center;
+    @extend %centeredFlex;
     padding-top: 32px;
     padding-bottom: 32px;
 

@@ -26,9 +26,7 @@
 }
 
 .regular-customers__link {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @extend %centeredFlex;
     height: 92px;
     border: 1px solid $teamSocialFill;
     border-radius: 4px;

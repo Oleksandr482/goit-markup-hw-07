@@ -27,9 +27,7 @@
 
 
 .activity__label {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @extend %centeredFlex;
 
   position: absolute;
   left: 0;

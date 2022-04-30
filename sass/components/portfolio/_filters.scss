@@ -1,6 +1,5 @@
 .filters {
-    display: flex;
-    justify-content: center;
+    @extend %centeredFlex;
     margin-bottom: 50px;
 
     & .item:not(:first-child) {
